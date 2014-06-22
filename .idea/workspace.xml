@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a65fbe84-9130-4a53-ac96-b069d8b7b48b" name="Default" comment="bootstrap-ing">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/query2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+    <list default="true" id="a65fbe84-9130-4a53-ac96-b069d8b7b48b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/query3.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="phpBench.iws" />
@@ -39,15 +38,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="query2.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="query2.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/query2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="27" selection-start="2149" selection-end="2149" vertical-scroll-proportion="0.4318182" vertical-offset="897" max-vertical-offset="2085">
+            <state line="107" column="17" selection-start="0" selection-end="4603" vertical-scroll-proportion="-7.625" vertical-offset="1422" max-vertical-offset="2085">
               <folding>
                 <marker date="1403468565000" expanded="true" signature="3302:3599" placeholder="select emplo..employees..." />
                 <marker date="1403468565000" expanded="true" signature="3302:3582" placeholder="select emplo..employees..." />
                 <marker date="1403468565000" expanded="true" signature="3302:3600" placeholder="select emplo..employees..." />
                 <marker date="1403468565000" expanded="true" signature="3794:3835" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="query3.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/query3.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="91" column="27" selection-start="2795" selection-end="2795" vertical-scroll-proportion="0.45454547" vertical-offset="1125" max-vertical-offset="2070">
+              <folding>
+                <element signature="e#6#90#0" expanded="true" />
+                <marker date="1403471994000" expanded="true" signature="3171:3178" placeholder="select emplo..employees..." />
+                <marker date="1403471994000" expanded="true" signature="3171:3441" placeholder="select depar..departments..." />
+                <marker date="1403471994000" expanded="true" signature="3171:3407" placeholder="select depar..departments..." />
+                <marker date="1403471994000" expanded="true" signature="3601:3642" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -78,6 +92,7 @@
         <option value="$PROJECT_DIR$/css/navbar-fixed-top.css" />
         <option value="$PROJECT_DIR$/query2.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/query3.php" />
       </list>
     </option>
   </component>
@@ -294,7 +309,11 @@
       <created>1403467687139</created>
       <updated>1403467687139</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="query 2">
+      <created>1403468603140</created>
+      <updated>1403468603140</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -331,7 +350,8 @@
     <MESSAGE value="connecting via PDO" />
     <MESSAGE value="mysql Query-ing" />
     <MESSAGE value="bootstrap-ing" />
-    <option name="LAST_COMMIT_MESSAGE" value="bootstrap-ing" />
+    <MESSAGE value="query 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="query 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -356,12 +376,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/query2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="27" selection-start="2149" selection-end="2149" vertical-scroll-proportion="0.4318182" vertical-offset="897" max-vertical-offset="2085">
+        <state line="107" column="17" selection-start="0" selection-end="4603" vertical-scroll-proportion="-7.625" vertical-offset="1422" max-vertical-offset="2085">
           <folding>
             <marker date="1403468565000" expanded="true" signature="3302:3599" placeholder="select emplo..employees..." />
             <marker date="1403468565000" expanded="true" signature="3302:3582" placeholder="select emplo..employees..." />
             <marker date="1403468565000" expanded="true" signature="3302:3600" placeholder="select emplo..employees..." />
             <marker date="1403468565000" expanded="true" signature="3794:3835" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="27" selection-start="2795" selection-end="2795" vertical-scroll-proportion="0.45454547" vertical-offset="1125" max-vertical-offset="2070">
+          <folding>
+            <element signature="e#6#90#0" expanded="true" />
+            <marker date="1403471994000" expanded="true" signature="3171:3178" placeholder="select emplo..employees..." />
+            <marker date="1403471994000" expanded="true" signature="3171:3441" placeholder="select depar..departments..." />
+            <marker date="1403471994000" expanded="true" signature="3171:3407" placeholder="select depar..departments..." />
+            <marker date="1403471994000" expanded="true" signature="3601:3642" placeholder="..." />
           </folding>
         </state>
       </provider>
