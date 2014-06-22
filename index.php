@@ -74,14 +74,14 @@ $password = 'lDSSJ1Sp2y';
 
 <div class="container">
     <div class="well col-md-4 col-lg-4 col-sm-4">
-        <a href="index.php">Top 10 Current Employees</a>
-        <a href="index.php">Top 10 Current Employees</a>
-        <a href="index.php">Top 10 Current Employees</a>
-        <a href="index.php">Top 10 Current Employees</a>
-        <a href="index.php">Top 10 Current Employees</a>
-        <a href="index.php">Top 10 Current Employees</a>
-        <a href="index.php">Top 10 Current Employees</a>
-        <a href="index.php">Top 10 Current Employees</a>
+        <a href="index.php">Top 10 Current Employees</a></br>
+        <a href="index.php">Top 10 Current Employees</a></br>
+        <a href="index.php">Top 10 Current Employees</a></br>
+        <a href="index.php">Top 10 Current Employees</a></br>
+        <a href="index.php">Top 10 Current Employees</a></br>
+        <a href="index.php">Top 10 Current Employees</a></br>
+        <a href="index.php">Top 10 Current Employees</a></br>
+        <a href="index.php">Top 10 Current Employees</a></br>
         <a href="index.php">Top 10 Current Employees</a>
 
 
