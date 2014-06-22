@@ -83,13 +83,22 @@ $password = 'lDSSJ1Sp2y';
 
         The date used for current employees is: 9999-01-01</p>
     <!-- Main component for a primary marketing message or call to action -->
+    <table class="table table-bordered table-hover">
+        <thead>
+        <tr><td>First Name</td></tr>
+        <tr><td>Last Name</td></tr>
+        <tr><td>Salarye</td></tr>
+        <tr><td>To Date</td></tr>
+        </thead>
+        <tbody>
     <?php
     try{
         $sql="select employees.first_name, employees.last_name, salaries.salary,salaries.to_date from employees join salaries on employees.emp_no=salaries.emp_no where salaries.to_date='9999-01-01' order by salaries.salary desc limit 10";
         $dbh = new PDO("mysql:host=$hostname;dbname=$dbName",$username,$password);
         foreach ($dbh->query($sql) as $row)
         {
-            print $row['first_name'] .' - '. $row['last_name'].' - '. $row['salary'].' - '. $row['to_date'] . '<br />';
+            print '<tr> '
+            print '<td>'.$row['first_name'] .'</td><td>'. $row['last_name'].' </td><td> '. $row['salary'].' </td><td>'. $row['to_date']. '< /td></tr>';
         }
     }
     catch(PDOException $e)
@@ -99,7 +108,8 @@ $password = 'lDSSJ1Sp2y';
 
 
 
-    ?>
+    ?></tbody>
+        </table>
 
 </div> <!-- /container -->
 
