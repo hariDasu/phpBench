@@ -39,13 +39,12 @@ $password = 'lDSSJ1Sp2y';
     <title>Fixed Top Navbar Example for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="navbar-fixed-top.css" rel="stylesheet">
+    <link href="css/navbar-fixed-top.css" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -123,6 +122,6 @@ $password = 'lDSSJ1Sp2y';
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="../../dist/js/bootstrap.min.js"></script>
+<script src="js/bootstrap.min.js></script>
 </body>
 </html>
