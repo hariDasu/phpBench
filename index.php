@@ -18,9 +18,20 @@ $username = 'root';
 /*** mysql password ***/
 $password = 'lDSSJ1Sp2y';
 
+
 try{
+    $sql="select employees.first_name, employees.last_name, salaries.salary,salaries.to_date
+            from employees
+            join salaries
+            on employees.emp_no=salaries.emp_no
+            where salaries.to_date='9999-01-01'
+            order by salaries.salary
+            desc limit 10";
     $dbh = new PDO("mysql:host=$hostname;dbname=$dbName",$username,$password);
-    echo 'Connected to database';
+    foreach ($dbh->query($sql) as $row)
+    {
+        print $row['First Name'] .' - '. $row['Last Name'].' - '. $row['Salary'].' - '. $row['To Date'] . '<br />';
+    }
     }
     catch(PDOException $e)
     {
