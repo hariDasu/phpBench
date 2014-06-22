@@ -10,10 +10,10 @@
 $hostname = 'localhost';
 
 /*** mysql dbName ***/
-$dbName='EMPLOYEES';
+$dbName='employees';
 
 /*** mysql username ***/
-$username = 'ROOT';
+$username = 'root';
 
 /*** mysql password ***/
 $password = 'lDSSJ1Sp2y';
