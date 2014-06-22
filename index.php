@@ -85,10 +85,10 @@ $password = 'lDSSJ1Sp2y';
     <!-- Main component for a primary marketing message or call to action -->
     <table class="table table-bordered table-hover">
         <thead>
-        <tr><td>First Name</td></tr>
-        <tr><td>Last Name</td></tr>
-        <tr><td>Salarye</td></tr>
-        <tr><td>To Date</td></tr>
+        <tr><th>First Name</th></tr>
+        <tr><th>Last Name</th></tr>
+        <tr><th>Salary</th></tr>
+        <tr><th>To Date</th></tr>
         </thead>
         <tbody>
     <?php
@@ -97,7 +97,7 @@ $password = 'lDSSJ1Sp2y';
         $dbh = new PDO("mysql:host=$hostname;dbname=$dbName",$username,$password);
         foreach ($dbh->query($sql) as $row)
         {
-            print '<tr> '
+            print '<tr> ';
             print '<td>'.$row['first_name'] .'</td><td>'. $row['last_name'].' </td><td> '. $row['salary'].' </td><td>'. $row['to_date']. '< /td></tr>';
         }
     }
