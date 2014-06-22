@@ -75,8 +75,19 @@ $password = 'lDSSJ1Sp2y';
 <div class="container">
     <div class="well col-md-4 col-lg-4 col-sm-4">
         <a href="index.php">Top 10 Current Employees</a>
+        <a href="index.php">Top 10 Current Employees</a>
+        <a href="index.php">Top 10 Current Employees</a>
+        <a href="index.php">Top 10 Current Employees</a>
+        <a href="index.php">Top 10 Current Employees</a>
+        <a href="index.php">Top 10 Current Employees</a>
+        <a href="index.php">Top 10 Current Employees</a>
+        <a href="index.php">Top 10 Current Employees</a>
+        <a href="index.php">Top 10 Current Employees</a>
+
 
     </div>
+
+    <div class="col-md-8 col-lg-8 col-sm-8">
 
     <p>Write the query to display the names of the top 10 highest paid employees that are currently employed.
 
@@ -109,7 +120,7 @@ $password = 'lDSSJ1Sp2y';
             ?>
         </tbody>
     </table>
-
+    </div>
 </div> <!-- /container -->
 
 
