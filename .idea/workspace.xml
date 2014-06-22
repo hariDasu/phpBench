@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a65fbe84-9130-4a53-ac96-b069d8b7b48b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/query2.php" afterPath="$PROJECT_DIR$/query2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/query3.php" afterPath="$PROJECT_DIR$/query3.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="phpBench.iws" />
@@ -27,11 +26,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="0.05940594" vertical-offset="75" max-vertical-offset="1080">
+            <state line="9" column="0" selection-start="93" selection-end="122" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="1080">
               <folding>
+                <element signature="e#7#91#0" expanded="true" />
                 <marker date="1403477974000" expanded="true" signature="832:1054" placeholder="select emplo..employees..." />
               </folding>
             </state>
@@ -52,7 +52,7 @@
       <file leaf-file-name="query2.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/query2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="1050">
+            <state line="14" column="0" selection-start="184" selection-end="226" vertical-scroll-proportion="-6.875" vertical-offset="45" max-vertical-offset="1050">
               <folding>
                 <element signature="e#6#91#0" expanded="true" />
                 <marker date="1403477961000" expanded="true" signature="901:1198" placeholder="select emplo..employees..." />
@@ -75,16 +75,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="query3.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="query3.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/query3.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="0" selection-start="2333" selection-end="2333" vertical-scroll-proportion="-15.0" vertical-offset="825" max-vertical-offset="2010">
+            <state line="8" column="4" selection-start="96" selection-end="96" vertical-scroll-proportion="0.14851485" vertical-offset="45" max-vertical-offset="1200">
               <folding>
                 <element signature="e#6#90#0" expanded="true" />
-                <marker date="1403474887000" expanded="true" signature="2878:2885" placeholder="select emplo..employees..." />
-                <marker date="1403474887000" expanded="true" signature="2878:3148" placeholder="select depar..departments..." />
-                <marker date="1403474887000" expanded="true" signature="2878:3114" placeholder="select depar..departments..." />
-                <marker date="1403474887000" expanded="true" signature="3308:3349" placeholder="..." />
+                <marker date="1403478076000" expanded="true" signature="1117:1124" placeholder="select emplo..employees..." />
+                <marker date="1403478076000" expanded="true" signature="1117:1387" placeholder="select depar..departments..." />
+                <marker date="1403478076000" expanded="true" signature="1117:1353" placeholder="select depar..departments..." />
+                <marker date="1403478076000" expanded="true" signature="1547:1588" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -93,7 +93,7 @@
       <file leaf-file-name="query4.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/query4.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="0" selection-start="2338" selection-end="2338" vertical-scroll-proportion="-15.125" vertical-offset="822" max-vertical-offset="2010">
+            <state line="79" column="0" selection-start="2338" selection-end="2338" vertical-scroll-proportion="-49.375" vertical-offset="0" max-vertical-offset="2010">
               <folding>
                 <element signature="e#6#90#0" expanded="true" />
                 <marker date="1403474887000" expanded="true" signature="2904:2934" placeholder="select depar..departments..." />
@@ -128,11 +128,11 @@
       <list>
         <option value="$PROJECT_DIR$/css/navbar-fixed-top.css" />
         <option value="$PROJECT_DIR$/query4.php" />
-        <option value="$PROJECT_DIR$/query3.php" />
         <option value="$PROJECT_DIR$/dbParams.php" />
         <option value="$PROJECT_DIR$/headerAndNav.php" />
         <option value="$PROJECT_DIR$/query2.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/query3.php" />
       </list>
     </option>
   </component>
@@ -381,7 +381,11 @@
       <created>1403477691258</created>
       <updated>1403477691258</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="modularizing php">
+      <created>1403477981202</created>
+      <updated>1403477981202</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -435,31 +439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/query4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="0" selection-start="2338" selection-end="2338" vertical-scroll-proportion="-15.125" vertical-offset="822" max-vertical-offset="2010">
-          <folding>
-            <element signature="e#6#90#0" expanded="true" />
-            <marker date="1403474887000" expanded="true" signature="2904:2934" placeholder="select depar..departments..." />
-            <marker date="1403474887000" expanded="true" signature="2904:3095" placeholder="select depar..departments..." />
-            <marker date="1403474887000" expanded="true" signature="3289:3330" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/query3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="0" selection-start="2333" selection-end="2333" vertical-scroll-proportion="-15.0" vertical-offset="825" max-vertical-offset="2010">
-          <folding>
-            <element signature="e#6#90#0" expanded="true" />
-            <marker date="1403474887000" expanded="true" signature="2878:2885" placeholder="select emplo..employees..." />
-            <marker date="1403474887000" expanded="true" signature="2878:3148" placeholder="select depar..departments..." />
-            <marker date="1403474887000" expanded="true" signature="2878:3114" placeholder="select depar..departments..." />
-            <marker date="1403474887000" expanded="true" signature="3308:3349" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/headerAndNav.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="2" selection-start="93" selection-end="93" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="960">
@@ -478,9 +457,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="93" selection-end="122" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="1080">
+          <folding>
+            <element signature="e#7#91#0" expanded="true" />
+            <marker date="1403477974000" expanded="true" signature="832:1054" placeholder="select emplo..employees..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="0" selection-start="2338" selection-end="2338" vertical-scroll-proportion="-49.375" vertical-offset="0" max-vertical-offset="2010">
+          <folding>
+            <element signature="e#6#90#0" expanded="true" />
+            <marker date="1403474887000" expanded="true" signature="2904:2934" placeholder="select depar..departments..." />
+            <marker date="1403474887000" expanded="true" signature="2904:3095" placeholder="select depar..departments..." />
+            <marker date="1403474887000" expanded="true" signature="3289:3330" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/query2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="1050">
+        <state line="14" column="0" selection-start="184" selection-end="226" vertical-scroll-proportion="-6.875" vertical-offset="45" max-vertical-offset="1050">
           <folding>
             <element signature="e#6#91#0" expanded="true" />
             <marker date="1403477961000" expanded="true" signature="901:1198" placeholder="select emplo..employees..." />
@@ -491,11 +492,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/query3.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="0.05940594" vertical-offset="75" max-vertical-offset="1080">
+        <state line="8" column="4" selection-start="96" selection-end="96" vertical-scroll-proportion="0.14851485" vertical-offset="45" max-vertical-offset="1200">
           <folding>
-            <marker date="1403477974000" expanded="true" signature="832:1054" placeholder="select emplo..employees..." />
+            <element signature="e#6#90#0" expanded="true" />
+            <marker date="1403478076000" expanded="true" signature="1117:1124" placeholder="select emplo..employees..." />
+            <marker date="1403478076000" expanded="true" signature="1117:1387" placeholder="select depar..departments..." />
+            <marker date="1403478076000" expanded="true" signature="1117:1353" placeholder="select depar..departments..." />
+            <marker date="1403478076000" expanded="true" signature="1547:1588" placeholder="..." />
           </folding>
         </state>
       </provider>
