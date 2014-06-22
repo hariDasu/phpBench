@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a65fbe84-9130-4a53-ac96-b069d8b7b48b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbParams.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/query2.php" afterPath="$PROJECT_DIR$/query2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/query3.php" afterPath="$PROJECT_DIR$/query3.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/query4.php" afterPath="$PROJECT_DIR$/query4.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="phpBench.iws" />
@@ -29,27 +27,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="5" selection-start="2335" selection-end="2335" vertical-scroll-proportion="0.60227275" vertical-offset="882" max-vertical-offset="2055">
+            <state line="0" column="0" selection-start="0" selection-end="633" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2055">
               <folding>
                 <element signature="e#7#91#0" expanded="true" />
-                <marker date="1403474892000" expanded="true" signature="2961:3183" placeholder="select emplo..employees..." />
+                <marker date="1403474921000" expanded="true" signature="2956:3178" placeholder="select emplo..employees..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="query2.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="dbParams.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dbParams.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="570">
+              <folding>
+                <element signature="e#6#90#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="query2.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/query2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="0" selection-start="2326" selection-end="2326" vertical-scroll-proportion="-10.75" vertical-offset="912" max-vertical-offset="2025">
+            <state line="9" column="29" selection-start="143" selection-end="143" vertical-scroll-proportion="0.08522727" vertical-offset="0" max-vertical-offset="1650">
               <folding>
-                <marker date="1403474892000" expanded="true" signature="3014:3311" placeholder="select emplo..employees..." />
-                <marker date="1403474892000" expanded="true" signature="3014:3294" placeholder="select emplo..employees..." />
-                <marker date="1403474892000" expanded="true" signature="3014:3312" placeholder="select emplo..employees..." />
-                <marker date="1403474892000" expanded="true" signature="3506:3547" placeholder="..." />
+                <marker date="1403477098000" expanded="true" signature="2533:2830" placeholder="select emplo..employees..." />
+                <marker date="1403477098000" expanded="true" signature="2533:2813" placeholder="select emplo..employees..." />
+                <marker date="1403477098000" expanded="true" signature="2533:2831" placeholder="select emplo..employees..." />
+                <marker date="1403477098000" expanded="true" signature="3025:3066" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -109,8 +118,9 @@
         <option value="$PROJECT_DIR$/css/navbar-fixed-top.css" />
         <option value="$PROJECT_DIR$/query4.php" />
         <option value="$PROJECT_DIR$/query3.php" />
-        <option value="$PROJECT_DIR$/query2.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/dbParams.php" />
+        <option value="$PROJECT_DIR$/query2.php" />
       </list>
     </option>
   </component>
@@ -347,7 +357,11 @@
       <created>1403474342369</created>
       <updated>1403474342369</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="query 4">
+      <created>1403474924474</created>
+      <updated>1403474924474</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -365,7 +379,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288364" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294643" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2642857" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -425,24 +439,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/query2.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="0" selection-start="2326" selection-end="2326" vertical-scroll-proportion="-10.75" vertical-offset="912" max-vertical-offset="2025">
+        <state line="0" column="0" selection-start="0" selection-end="633" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2055">
           <folding>
-            <marker date="1403474892000" expanded="true" signature="3014:3311" placeholder="select emplo..employees..." />
-            <marker date="1403474892000" expanded="true" signature="3014:3294" placeholder="select emplo..employees..." />
-            <marker date="1403474892000" expanded="true" signature="3014:3312" placeholder="select emplo..employees..." />
-            <marker date="1403474892000" expanded="true" signature="3506:3547" placeholder="..." />
+            <element signature="e#7#91#0" expanded="true" />
+            <marker date="1403474921000" expanded="true" signature="2956:3178" placeholder="select emplo..employees..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/dbParams.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="5" selection-start="2335" selection-end="2335" vertical-scroll-proportion="0.60227275" vertical-offset="882" max-vertical-offset="2055">
+        <state line="7" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="570">
           <folding>
-            <element signature="e#7#91#0" expanded="true" />
-            <marker date="1403474892000" expanded="true" signature="2961:3183" placeholder="select emplo..employees..." />
+            <element signature="e#6#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="29" selection-start="143" selection-end="143" vertical-scroll-proportion="0.08522727" vertical-offset="0" max-vertical-offset="1650">
+          <folding>
+            <marker date="1403477098000" expanded="true" signature="2533:2830" placeholder="select emplo..employees..." />
+            <marker date="1403477098000" expanded="true" signature="2533:2813" placeholder="select emplo..employees..." />
+            <marker date="1403477098000" expanded="true" signature="2533:2831" placeholder="select emplo..employees..." />
+            <marker date="1403477098000" expanded="true" signature="3025:3066" placeholder="..." />
           </folding>
         </state>
       </provider>
