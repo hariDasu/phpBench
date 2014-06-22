@@ -99,7 +99,7 @@ $password = 'lDSSJ1Sp2y';
         foreach ($dbh->query($sql) as $row)
         {
             print '<tr> ';
-            print '<td>'.$row['first_name'] .'</td><td>'. $row['last_name'].' </td><td> '. $row['salary'].' </td><td>'. $row['to_date']. '< /td></tr>';
+            print '<td>'.$row['first_name'] .'</td><td>'. $row['last_name'].' </td><td> '. $row['salary'].' </td><td>'. $row['to_date']. '</tr>';
         }
     }
     catch(PDOException $e)

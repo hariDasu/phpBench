@@ -29,10 +29,10 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="16" selection-start="2511" selection-end="2511" vertical-scroll-proportion="0.5945946" vertical-offset="1182" max-vertical-offset="1950">
+            <state line="101" column="138" selection-start="3088" selection-end="3088" vertical-scroll-proportion="0.375" vertical-offset="1317" max-vertical-offset="1950">
               <folding>
                 <element signature="e#8#92#0" expanded="true" />
-                <marker date="1403466710000" expanded="true" signature="2561:2783" placeholder="select emplo..employees..." />
+                <marker date="1403466840000" expanded="true" signature="2561:2783" placeholder="select emplo..employees..." />
               </folding>
             </state>
           </provider>
@@ -254,12 +254,16 @@
       <created>1403466652848</created>
       <updated>1403466652848</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="bootstrap-ing">
+      <created>1403466715055</created>
+      <updated>1403466715055</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="61" width="1162" height="711" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33052278" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -269,7 +273,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3288364" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288364" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294643" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
@@ -306,10 +310,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="16" selection-start="2511" selection-end="2511" vertical-scroll-proportion="0.5945946" vertical-offset="1182" max-vertical-offset="1950">
+        <state line="101" column="138" selection-start="3088" selection-end="3088" vertical-scroll-proportion="0.375" vertical-offset="1317" max-vertical-offset="1950">
           <folding>
             <element signature="e#8#92#0" expanded="true" />
-            <marker date="1403466710000" expanded="true" signature="2561:2783" placeholder="select emplo..employees..." />
+            <marker date="1403466840000" expanded="true" signature="2561:2783" placeholder="select emplo..employees..." />
           </folding>
         </state>
       </provider>
