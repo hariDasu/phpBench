@@ -78,13 +78,13 @@
       <file leaf-file-name="query3.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/query3.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="4" selection-start="96" selection-end="96" vertical-scroll-proportion="0.14851485" vertical-offset="45" max-vertical-offset="1200">
+            <state line="18" column="0" selection-start="231" selection-end="231" vertical-scroll-proportion="0.5346535" vertical-offset="0" max-vertical-offset="1035">
               <folding>
                 <element signature="e#6#90#0" expanded="true" />
-                <marker date="1403478076000" expanded="true" signature="1117:1124" placeholder="select emplo..employees..." />
-                <marker date="1403478076000" expanded="true" signature="1117:1387" placeholder="select depar..departments..." />
-                <marker date="1403478076000" expanded="true" signature="1117:1353" placeholder="select depar..departments..." />
-                <marker date="1403478076000" expanded="true" signature="1547:1588" placeholder="..." />
+                <marker date="1403478116000" expanded="true" signature="762:769" placeholder="select emplo..employees..." />
+                <marker date="1403478116000" expanded="true" signature="762:1032" placeholder="select depar..departments..." />
+                <marker date="1403478116000" expanded="true" signature="762:998" placeholder="select depar..departments..." />
+                <marker date="1403478116000" expanded="true" signature="1192:1233" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -385,7 +385,11 @@
       <created>1403477981202</created>
       <updated>1403477981202</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="modularizing php">
+      <created>1403478082862</created>
+      <updated>1403478082863</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -494,13 +498,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/query3.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="4" selection-start="96" selection-end="96" vertical-scroll-proportion="0.14851485" vertical-offset="45" max-vertical-offset="1200">
+        <state line="18" column="0" selection-start="231" selection-end="231" vertical-scroll-proportion="0.5346535" vertical-offset="0" max-vertical-offset="1035">
           <folding>
             <element signature="e#6#90#0" expanded="true" />
-            <marker date="1403478076000" expanded="true" signature="1117:1124" placeholder="select emplo..employees..." />
-            <marker date="1403478076000" expanded="true" signature="1117:1387" placeholder="select depar..departments..." />
-            <marker date="1403478076000" expanded="true" signature="1117:1353" placeholder="select depar..departments..." />
-            <marker date="1403478076000" expanded="true" signature="1547:1588" placeholder="..." />
+            <marker date="1403478116000" expanded="true" signature="762:769" placeholder="select emplo..employees..." />
+            <marker date="1403478116000" expanded="true" signature="762:1032" placeholder="select depar..departments..." />
+            <marker date="1403478116000" expanded="true" signature="762:998" placeholder="select depar..departments..." />
+            <marker date="1403478116000" expanded="true" signature="1192:1233" placeholder="..." />
           </folding>
         </state>
       </provider>

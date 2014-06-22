@@ -17,17 +17,6 @@
 ?>
 
 
-<div class="container">
-    <div class="well col-md-3 col-lg-3 col-sm-3">
-        <a href="index.php">Top 10 Current Employees</a></br>
-        <a href="query2.php">Customer Service Managers</a></br>
-        <a href="query3.php">Average Salary by Department</a></br>
-        <a href="query4.php">Number of Employees by Department </a></br>
-
-
-
-    </div>
-
     <div class="col-md-9 col-lg-9 col-sm-9">
 
         <p>Write the query that displays the average salaries of all departments
