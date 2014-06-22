@@ -106,7 +106,7 @@ $password = 'lDSSJ1Sp2y';
                 foreach ($dbh->query($sql) as $row)
                 {
                     print '<tr> ';
-                    print '<td>'.$row['dept_name'] . $row['avg(salaries.salary)']. '</tr>';
+                    print '<td>'.$row['dept_name'] .'</td><td>'. $row['avg(salaries.salary)']. '</tr>';
                 }
                 /*** close the database connection ***/
                 $dbh = null;
