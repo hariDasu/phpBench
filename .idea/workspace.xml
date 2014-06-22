@@ -29,10 +29,10 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="26" selection-start="2935" selection-end="2935" vertical-scroll-proportion="0.5495495" vertical-offset="1302" max-vertical-offset="1935">
+            <state line="92" column="16" selection-start="2511" selection-end="2511" vertical-scroll-proportion="0.5945946" vertical-offset="1182" max-vertical-offset="1950">
               <folding>
                 <element signature="e#8#92#0" expanded="true" />
-                <marker date="1403466646000" expanded="true" signature="2547:2769" placeholder="select emplo..employees..." />
+                <marker date="1403466710000" expanded="true" signature="2561:2783" placeholder="select emplo..employees..." />
               </folding>
             </state>
           </provider>
@@ -250,7 +250,11 @@
       <created>1403466551527</created>
       <updated>1403466551527</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="bootstrap-ing">
+      <created>1403466652848</created>
+      <updated>1403466652848</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -302,10 +306,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="26" selection-start="2935" selection-end="2935" vertical-scroll-proportion="0.5495495" vertical-offset="1302" max-vertical-offset="1935">
+        <state line="92" column="16" selection-start="2511" selection-end="2511" vertical-scroll-proportion="0.5945946" vertical-offset="1182" max-vertical-offset="1950">
           <folding>
             <element signature="e#8#92#0" expanded="true" />
-            <marker date="1403466646000" expanded="true" signature="2547:2769" placeholder="select emplo..employees..." />
+            <marker date="1403466710000" expanded="true" signature="2561:2783" placeholder="select emplo..employees..." />
           </folding>
         </state>
       </provider>

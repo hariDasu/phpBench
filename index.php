@@ -85,10 +85,11 @@ $password = 'lDSSJ1Sp2y';
     <!-- Main component for a primary marketing message or call to action -->
     <table class="table table-bordered table-hover">
         <thead>
-        <tr><th>First Name</th></tr>
-        <tr><th>Last Name</th></tr>
-        <tr><th>Salary</th></tr>
-        <tr><th>To Date</th></tr>
+            <tr><th>First Name</th>
+                <th>Last Name</th>
+                <th>Salary</th>
+                <th>To Date</th>
+            </tr>
         </thead>
         <tbody>
     <?php
