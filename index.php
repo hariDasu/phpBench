@@ -1,14 +1,11 @@
 <?php
 
-
 /**
  * Created by PhpStorm.
  * User: kingHenry
  * Date: 6/22/14
  * Time: 2:06 PM
  */
-
-
 
 /*** mysql hostname ***/
 $hostname = 'localhost';
@@ -23,8 +20,6 @@ $username = 'root';
 $password = 'lDSSJ1Sp2y';
 
 ?>
-
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -78,6 +73,10 @@ $password = 'lDSSJ1Sp2y';
 </div>
 
 <div class="container">
+    <div class="well col-md-4 col-lg-4 col-sm-4">
+        <a href="index.php">Top 10 Current Employees</a>
+
+    </div>
 
     <p>Write the query to display the names of the top 10 highest paid employees that are currently employed.
 
@@ -92,25 +91,24 @@ $password = 'lDSSJ1Sp2y';
             </tr>
         </thead>
         <tbody>
-    <?php
-    try{
-        $sql="select employees.first_name, employees.last_name, salaries.salary,salaries.to_date from employees join salaries on employees.emp_no=salaries.emp_no where salaries.to_date='9999-01-01' order by salaries.salary desc limit 10";
-        $dbh = new PDO("mysql:host=$hostname;dbname=$dbName",$username,$password);
-        foreach ($dbh->query($sql) as $row)
-        {
-            print '<tr> ';
-            print '<td>'.$row['first_name'] .'</td><td>'. $row['last_name'].' </td><td> '. $row['salary'].' </td><td>'. $row['to_date']. '</tr>';
-        }
-    }
-    catch(PDOException $e)
-    {
-        echo $e->getMessage();
-    }
+            <?php
+            try{
+                $sql="select employees.first_name, employees.last_name, salaries.salary,salaries.to_date from employees join salaries on employees.emp_no=salaries.emp_no where salaries.to_date='9999-01-01' order by salaries.salary desc limit 10";
+                $dbh = new PDO("mysql:host=$hostname;dbname=$dbName",$username,$password);
+                foreach ($dbh->query($sql) as $row)
+                {
+                    print '<tr> ';
+                    print '<td>'.$row['first_name'] .'</td><td>'. $row['last_name'].' </td><td> '. $row['salary'].' </td><td>'. $row['to_date']. '</tr>';
+                }
+            }
+            catch(PDOException $e)
+            {
+                echo $e->getMessage();
+            }
 
-
-
-    ?></tbody>
-        </table>
+            ?>
+        </tbody>
+    </table>
 
 </div> <!-- /container -->
 
