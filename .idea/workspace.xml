@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a65fbe84-9130-4a53-ac96-b069d8b7b48b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/navbar-fixed-top.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -30,10 +29,10 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="124" column="32" selection-start="4092" selection-end="4092" vertical-scroll-proportion="0.5945946" vertical-offset="1662" max-vertical-offset="1995">
+            <state line="66" column="21" selection-start="1670" selection-end="1670" vertical-scroll-proportion="-0.09009009" vertical-offset="1020" max-vertical-offset="1785">
               <folding>
                 <element signature="e#8#92#0" expanded="true" />
-                <marker date="1403465885000" expanded="true" signature="3208:3430" placeholder="select emplo..employees..." />
+                <marker date="1403466043000" expanded="true" signature="2273:2495" placeholder="select emplo..employees..." />
               </folding>
             </state>
           </provider>
@@ -235,7 +234,11 @@
       <created>1403465696540</created>
       <updated>1403465696540</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="bootstrap-ing">
+      <created>1403465892411</created>
+      <updated>1403465892411</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -287,10 +290,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="32" selection-start="4092" selection-end="4092" vertical-scroll-proportion="0.5945946" vertical-offset="1662" max-vertical-offset="1995">
+        <state line="66" column="21" selection-start="1670" selection-end="1670" vertical-scroll-proportion="-0.09009009" vertical-offset="1020" max-vertical-offset="1785">
           <folding>
             <element signature="e#8#92#0" expanded="true" />
-            <marker date="1403465885000" expanded="true" signature="3208:3430" placeholder="select emplo..employees..." />
+            <marker date="1403466043000" expanded="true" signature="2273:2495" placeholder="select emplo..employees..." />
           </folding>
         </state>
       </provider>
