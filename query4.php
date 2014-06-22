@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: kingHenry
  * Date: 6/22/14
- * Time: 5:13 PM
+ * Time: 5:52 PM
  */
 
 /*** mysql hostname ***/
@@ -30,7 +30,7 @@ $password = 'lDSSJ1Sp2y';
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
-    <title>Average Salary by Department | phpBench</title>
+    <title>Number of Employees by Department | phpBench</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -88,25 +88,25 @@ $password = 'lDSSJ1Sp2y';
 
     <div class="col-md-9 col-lg-9 col-sm-9">
 
-        <p>Write the query that displays the average salaries of all departments
-        in descending order</p>
+        <p>Write the query that displays the total count of employees per department
+            in descending order by department</p>
         <!-- Main component for a primary marketing message or call to action -->
         <table class="table table-bordered table-hover">
             <thead>
             <tr><th>Department Name</th>
-                <th>Average Salaries(descending)</th>
+                <th>Total Employees(descending)</th>
 
             </tr>
             </thead>
             <tbody>
             <?php
             try{
-                $sql="select departments.dept_name, avg(salaries.salary) from departments join dept_emp on departments.dept_no=dept_emp.dept_no join salaries on dept_emp.emp_no=salaries.emp_no group by departments.dept_name order by avg(salaries.salary) desc";
+                $sql="select departments.dept_name, count(dept_emp.emp_no) from departments join dept_emp on departments.dept_no=dept_emp.dept_no group by departments.dept_name order by count(dept_emp.emp_no) desc";
                 $dbh = new PDO("mysql:host=$hostname;dbname=$dbName",$username,$password);
                 foreach ($dbh->query($sql) as $row)
                 {
                     print '<tr> ';
-                    print '<td>'.$row['dept_name'] .'</td><td>'. $row['avg(salaries.salary)']. '</tr>';
+                    print '<td>'.$row['dept_name'] .'</td><td>'. $row['count(dept_emp.emp_no)']. '</tr>';
                 }
                 /*** close the database connection ***/
                 $dbh = null;
