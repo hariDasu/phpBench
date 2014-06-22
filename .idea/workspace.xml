@@ -29,10 +29,10 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="219" selection-start="511" selection-end="511" vertical-scroll-proportion="0.3243243" vertical-offset="222" max-vertical-offset="630">
+            <state line="26" column="98" selection-start="750" selection-end="750" vertical-scroll-proportion="0.7747748" vertical-offset="132" max-vertical-offset="630">
               <folding>
                 <element signature="e#6#90#0" expanded="true" />
-                <marker date="1403465163000" expanded="true" signature="302:524" placeholder="select emplo..employees..." />
+                <marker date="1403465237000" expanded="true" signature="302:524" placeholder="select emplo..employees..." />
               </folding>
             </state>
           </provider>
@@ -212,7 +212,11 @@
       <created>1403465079938</created>
       <updated>1403465079938</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="mysql Query-ing">
+      <created>1403465172253</created>
+      <updated>1403465172254</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -256,10 +260,10 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="219" selection-start="511" selection-end="511" vertical-scroll-proportion="0.3243243" vertical-offset="222" max-vertical-offset="630">
+        <state line="26" column="98" selection-start="750" selection-end="750" vertical-scroll-proportion="0.7747748" vertical-offset="132" max-vertical-offset="630">
           <folding>
             <element signature="e#6#90#0" expanded="true" />
-            <marker date="1403465163000" expanded="true" signature="302:524" placeholder="select emplo..employees..." />
+            <marker date="1403465237000" expanded="true" signature="302:524" placeholder="select emplo..employees..." />
           </folding>
         </state>
       </provider>

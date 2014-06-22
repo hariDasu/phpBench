@@ -24,7 +24,7 @@ try{
     $dbh = new PDO("mysql:host=$hostname;dbname=$dbName",$username,$password);
     foreach ($dbh->query($sql) as $row)
     {
-        print $row['First Name'] .' - '. $row['Last Name'].' - '. $row['Salary'].' - '. $row['To Date'] . '<br />';
+        print $row['first_name'] .' - '. $row['last_name'].' - '. $row['salary'].' - '. $row['to_date'] . '<br />';
     }
     }
     catch(PDOException $e)
