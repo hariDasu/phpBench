@@ -5,7 +5,7 @@
  * Date: 6/22/14
  * Time: 4:12 PM
 
-/*** mysql hostname ***/
+**/
 
     @require('dbParams.php');
 ?>
