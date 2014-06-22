@@ -36,7 +36,7 @@ $password = 'lDSSJ1Sp2y';
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
-    <title>Top</title>
+    <title>Top 10 Current Employees | phpBench</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
